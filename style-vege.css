@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #0082e6;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+nav div {
+    display: inline-block;
+    color: white;
+    font-size: 33px;
+}
+
+.op1 li {
+
+    display: inline-block !important;
+    padding: 10px;
+    color: white;
+}
+
+.op1 li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 5px;
+    float: right !important;
+}
+
+.footer {
+    height: 283px;
+    background-color: rgb(40, 38, 33);
+    margin-top: 80px;
+}
+
+.fav {
+    height: 54px;
+    width: 1287px;
+    display: flex;
+    justify-content: space-around;
+    padding: 41px;
+}
+
+.fb {
+    display: inline-block;
+}
+
+.tw {
+    display: inline-block;
+}
+
+.insta {
+    display: inline-block;
+}
+
+.social {
+    display: inline-block;
+    text-align: center;
+    padding-left: 620px;
+    padding-top: 37px;
+    color: white;
+
+}
+
+.column {
+    display: inline-block;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+}
+
+.a1 {
+    padding-left: 482px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 439px;
+    padding-top: 28px;
+}
+
+.icon2 {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.icon1 {
+    color: white;
+    display: inline-block;
+    padding-left: 29px;
+}
+
+section {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hor-card {
+    width: 592px;
+    background-color: rgba(238, 245, 245, 0.904);
+    display: flex;
+
+}
+
+.hor-img {
+    position: relative;
+    flex: 0 0 50%;
+
+}
+
+.hor-cont {
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    position: absolute;
+    width: 10px;
+    position: relative;
+    padding-top: 70px;
+    left: 3%;
+}
+
+.m {
+    position: absolute;
+    top: 43%;
+    left: 63%;
+    
+  }
+
+
+.mt{
+    background-color: rgb(139, 141, 117);
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.onion {
+    display: block;
+    width: 100%;
+}
+
+.h {
+    position: absolute;
+    left: 52%;
+    top: 29%;
+    color: rgb(90, 81, 81);
+}
+
+.hor-card:hover {
+    background-color: rgb(240, 240, 186);
+
+}
+
+.buy {
+    position: absolute;
+    padding-left: 416px;
+    padding-top: 120px;
+    height: 30px;
+    width: 78px;
+}
+
+.price {
+    position: absolute;
+    padding-left: 393px;
+    padding-top: 67px;
+
+}
+
+.sz {
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    position: absolute;
+    left: 52%;
+    top: 68%;
+    color: rgb(90, 81, 81);
+}
+.h2{
+    position: absolute;
+    left: 52%;
+    top: 111%;
+    color: rgb(90, 81, 81);
+}
+.h3{
+    position: absolute;
+    left: 52%;
+    top: 152%;
+    color: rgb(90, 81, 81);
+}
+.m1{
+    position: absolute;
+    top: 84%;
+    left: 63%;
+}
+.mt1{
+    background-color: rgb(139, 141, 117);
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative;
+}
+.m2{
+    position: absolute;
+    top: 125%;
+    left: 63%;
+}
+.m3
+{
+    position: absolute;
+    top: 166%;
+    left: 63%;
+}
+
+.vd{
+ 
+        display: inline-block;
+        position: relative;
+        left: 42%;
+        padding: 16px;
+}
+.container{
+        display: grid;
+        justify-content: center;
+        flex-wrap: wrap;
+}

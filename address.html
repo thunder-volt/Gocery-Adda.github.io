@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Adda</title>
+    <link rel="stylesheet" href="address.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div></div><i class="fa-solid fa-bag-shopping fa-2x icon"></i>
+            <h2 class="icon1">Grocery Adda</h2>
+            </div>
+            <ul class="op">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="login.html">Login</a></li>
+                <!-- <li><a href="">Blogs</a></li> -->
+                <li><a href="">Contact Us</a></li>
+                <!-- <li><a href="">About Us</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-main">
+            <p>Enter The Address</p>
+        </div>
+
+        <div class="center">
+            <div class="container-form">
+                <form action="buy.html" name="address">
+                    <div class="a"> <label for=""> Address Line 1 :</label><input type="text" name="address1"></div>
+                    <div class="a"> <label for="">Address Line 2 :</label> <input type="text" name="address2"></div>
+                    <div class="a"><label for=""> City :</label> <input type="text" name="city"></div>
+                    <div class="a"> <label for=""> Zip/Postal Code : </label><input type="number" name="code"></div>
+                    <div class="a"> <label for="">Country :</label> <input type="text" name="country"></div>
+                    <div class="a"><input type="submit" value="Procced To Buy"></div>
+                    <div class="buy"><a href="buy.html">Proceed To Buy</a></div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-main3">
+            <div>
+                <h2 class="social">SOCIAL MEDIAS</h2>
+            </div>
+            <div class="fav">
+
+                <div class="fb"><i class="fa-brands fa-facebook-square fa-3x"></i></div>
+                <div class="tw"><i class="fa-brands fa-twitter fa-3x"></i></div>
+                <div class="insta"><i class="fa-brands fa-instagram fa-3x"></i></div>
+            </div>
+            <hr>
+            <div class="a1">
+                <div class="column">
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="column">
+                    <a href="">User Agreement</a>
+                </div>
+                <div class="column">
+                    <a href="">Terms of Sales</a>
+                </div>
+                <div class="column">
+                    <a href="">Security Feedback</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const scriptURL =
+        'https://script.google.com/macros/s/AKfycbx5dk0QemOYMMYjBm_YinhvBbUT37xmjxi9XVexVprq3DMJiquuwbzpqU-Uh8qDL-FH/exec'
+    const form = document.forms['address']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+            method: 'POST',
+            body: new FormData(form)
+        })
+            .then(response => alert(
+                "Procced to Buy"))
+            .catch(error => console.error('Error!', error.message))
+    })
+
+</script>
+
+</html>

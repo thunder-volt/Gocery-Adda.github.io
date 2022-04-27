@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #0082e6;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+nav div {
+    display: inline-block;
+    color: white;
+    font-size: 33px;
+}
+
+.op li {
+
+    display: inline-block !important;
+    padding: 10px;
+    color: white;
+}
+
+.op li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 5px;
+    float: right !important;
+}
+.footer {
+    height: 283px;
+    background-color: rgb(40, 38, 33);
+    margin-top: 80px;
+}
+.fav {
+    height: 54px;
+    width: 1287px;
+    display: flex;
+    justify-content: space-around;
+    padding: 41px;
+}
+
+.fb {
+    display: inline-block;
+}
+
+.tw {
+    display: inline-block;
+}
+
+.insta {
+    display: inline-block;
+}
+
+.social {
+    display: inline-block;
+    text-align: center;
+    padding-left: 620px;
+    padding-top: 37px;
+    color: white;
+
+}
+
+.column {
+    display: inline-block;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+}
+
+.a1 {
+    padding-left: 482px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 439px;
+    padding-top: 28px;
+}
+.icon{
+    display: inline-block;
+    padding-left:10px ;
+}
+.icon1{
+    color: white;
+    display: inline-block;
+    padding-left: 29px;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    width: 489px;
+    top: 30%;
+    padding-top: 100px;
+}
+body{
+    background-color: rgba(238, 245, 245, 0.904);
+}
+.img{
+
+display: inline-block;
+position: relative;
+left: 17%;
+}
+.cele{
+    width: 314px;
+}
+.title{
+    position: relative;
+    left: 9%;
+    font-size: 38px;
+    color: gray;
+}
+.greet{
+    display: inline-block;
+    padding-left: 97px;
+    padding-top: 20px;
+    font-size: 21px;
+}
+.main{
+    display: block;
+    padding-top: 21px;
+    width: 129px;
+    height: 39px;
+    background-color: rgb(159, 207, 159);
+    position: relative;
+    left: 37%;
+    top: 26px;
+    border-radius: 5px;
+}
+.main1{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    position: relative;
+    left: 3px;
+}
